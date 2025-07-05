@@ -36,13 +36,13 @@ const Header: React.FC = () => {
   <img
     src={mohsinImage}
     alt="Mohsin Logo Light"
-    className="w-[7vw] block dark:hidden"
+    className="w-[100px] block dark:hidden"
   />
 
   <img
     src={mohsinImage2}
     alt="Mohsin Logo Dark"
-    className="w-[7vw] hidden dark:block"
+    className="w-[100px] hidden dark:block"
   />
 </div>
 

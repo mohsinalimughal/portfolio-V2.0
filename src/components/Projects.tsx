@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import portfolioImage from './portfolioss.jpeg'; // Adjust the path as necessary
+import chatAppImage from './chat-app.png'; // Adjust the path as necessary
 
 const Projects: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,33 +30,18 @@ const Projects: React.FC = () => {
       description: 'A successful Open-Source portfolio template that has been featured on major tech sites like CSS-Tricks and Hostinger. Used by thousands of developers globally to showcase their work.',
       image: `${portfolioImage}`,
       githubUrl: 'https://github.com/mohsinalimughal/mohsin-ali-portfolio',
-      liveUrl: '#',
+      liveUrl: 'https://mohsinali.site/',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design']
     },
     {
       title: 'Real-time Chat Application',
       description: 'A full-stack real-time chat application built with the MERN stack and Socket.io. Features include real-time messaging, user authentication, and Firebase integration for invite systems.',
-      image: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=600',
-      githubUrl: '#',
-      liveUrl: '#',
+      image: `${chatAppImage}`,
+      githubUrl: 'https://github.com/mohsinalimughal/chat-app',
+      liveUrl: 'https://chat-app-iota-orpin-15.vercel.app/about',
       technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Firebase']
     },
-    {
-      title: 'Salt N Pepper',
-      description: 'A modern restaurant website featuring responsive design, interactive menu display, and seamless user experience. Built with modern web technologies for optimal performance.',
-      image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600',
-      githubUrl: 'https://github.com/mohsinalimughal/salt-n-pepper',
-      liveUrl: '#',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design']
-    },
-    {
-      title: 'CLI Snake Game',
-      description: 'An interactive command-line snake game built with Python, featuring engaging gameplay mechanics and a user-friendly interface that demonstrates programming logic and problem-solving skills.',
-      image: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=600',
-      githubUrl: 'https://github.com/mohsinalimughal/snack_water_gun_project',
-      liveUrl: '#',
-      technologies: ['Python', 'CLI', 'Game Development', 'Logic Programming']
-    }
+ 
   ];
 
   return (

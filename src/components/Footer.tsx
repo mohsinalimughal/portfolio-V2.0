@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start space-x-3 mb-4">
-              <img src={mohsinImage} className='w-[50px]' alt="" />
+              <img src={mohsinImage} className='w-[100px]' alt="" />
               <div>
                 <h3 className="text-xl font-bold">Mohsin Ali Mughal</h3>
                 <p className="text-gray-400 text-sm">Web Developer</p>

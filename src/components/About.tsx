@@ -57,9 +57,9 @@ const About: React.FC = () => {
                 Every line of code I write is fueled by purpose, precision, and a deep-rooted passion to solve real-world problems.
               </p>
               <p>
-                By day, I lead the Editing Team at <strong>Explosion Services</strong>, where I guide a talented 
+                By day, I lead the Medical Sales Documentation Team at <strong>Explosion Services</strong>, where I guide a talented 
                 squad to deliver high-impact documentation in the medical sales domain. What began as a role in 
-                editing soon evolved into team leadership — proof that ownership, empathy, and consistent growth always pay off.
+                documentation soon evolved into team leadership — proof that ownership, empathy, and consistent growth always pay off.
               </p>
               <p>
                 I'm a proud alumnus of <strong>The Citizens Foundation College, Class of 2024</strong> — a place that 

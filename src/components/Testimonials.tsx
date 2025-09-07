@@ -49,7 +49,7 @@ const Testimonials: React.FC = () => {
 
   const achievements = [
     {
-      number: '50+',
+      number: '10+',
       label: 'Projects Completed',
      
     },

@@ -66,7 +66,7 @@ const Hero: React.FC = () => {
                 </span>
               </h2>
               <h3 className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 font-medium">
-                Full Stack Developer | Team Leader | AI Explorer 💻
+                Full Stack Developer | Team Leader | AI Explorer
               </h3>
               <p className="text-lg text-gray-500 dark:text-gray-400 max-w-lg">
                 Building digital experiences with the MERN Stack. Leading teams, exploring AI, and solving real-world problems through code.
